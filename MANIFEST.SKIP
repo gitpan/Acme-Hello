@@ -1,0 +1,10 @@
+^Build$
+^MANIFEST.bak$
+/CVS/
+^Acme-Hello-
+^diffs$
+^CVS/
+^Makefile$
+^_build/
+^blib/
+^.cvsignore$
