@@ -1,6 +1,6 @@
 #!/usr/bin/perl -w
-# $File: //member/autrijus/Acme-Hello/Build.pm $ 
-# $Revision: #1 $ $Change: 1382 $ $DateTime: 2002/10/13 07:16:33 $
+# $File: //member/autrijus/Acme-Hello/inc/Build.pm $ 
+# $Revision: #1 $ $Change: 2769 $ $DateTime: 2002/12/19 03:17:22 $
 
 package Build;
 

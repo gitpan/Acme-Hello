@@ -1,24 +1,72 @@
 ____________________________________________________________________________
+[  2773] By: autrijus                              on 2002/12/19  03:48:14
+        Log: * a shiny new Module::Build pass-thru installer.
+	   ! Makefile.PL
+____________________________________________________________________________
+[  2772] By: autrijus                              on 2002/12/19  03:19:17
+        Log: * This be Acme::Hello version 0.02.
+	   ! lib/Acme/Hello.pm
+____________________________________________________________________________
+[  2771] By: autrijus                              on 2002/12/19  03:18:59
+        Log: * META.yaml is now META.yml; reflect this in MANIFEST.
+	   + META.yml
+	   - META.yaml
+	   ! MANIFEST
+____________________________________________________________________________
+[  2770] By: autrijus                              on 2002/12/19  03:18:33
+        Log: * reflect inc/Build.pm in Build.PL.
+	   ! Build.PL
+____________________________________________________________________________
+[  2769] By: autrijus                              on 2002/12/19  03:17:22
+        Log: * move Build.pm to inc/ so CPAN indexer won't
+             be confused.
+	  +> inc/Build.pm
+	   - Build.pm
+____________________________________________________________________________
+[  1383] By: autrijus                              on 2002/10/13  07:18:42
+        Log: * change and signature.
+	   + Changes SIGNATURE
+____________________________________________________________________________
 [  1382] By: autrijus                              on 2002/10/13  07:16:33
-        Log: * Version 0.01, initial release of 'Best Practice' Acme::Hello.
-             * (not quite yet -- tests and script/hello.pl needs working)
-	   + Build.PL Build.pm INSTALL MANIFEST MANIFEST.SKIP META.yaml
-	   + Makefile.PL README lib/Acme/Hello.pm lib/Acme/Hello/I18N.pm
-	   + lib/Acme/Hello/I18N/ca.po lib/Acme/Hello/I18N/da.po
-	   + lib/Acme/Hello/I18N/de.po lib/Acme/Hello/I18N/de_DE.po
-	   + lib/Acme/Hello/I18N/el.po lib/Acme/Hello/I18N/en.po
-	   + lib/Acme/Hello/I18N/eo.po lib/Acme/Hello/I18N/es.po
-	   + lib/Acme/Hello/I18N/et.po lib/Acme/Hello/I18N/fi.po
-	   + lib/Acme/Hello/I18N/fr.po lib/Acme/Hello/I18N/gl.po
-	   + lib/Acme/Hello/I18N/he.po lib/Acme/Hello/I18N/hr.po
-	   + lib/Acme/Hello/I18N/hu.po lib/Acme/Hello/I18N/id.po
-	   + lib/Acme/Hello/I18N/it.po lib/Acme/Hello/I18N/ja.po
-	   + lib/Acme/Hello/I18N/ko.po lib/Acme/Hello/I18N/lv.po
-	   + lib/Acme/Hello/I18N/nb.po lib/Acme/Hello/I18N/nl.po
-	   + lib/Acme/Hello/I18N/nn.po lib/Acme/Hello/I18N/pl.po
-	   + lib/Acme/Hello/I18N/pt.po lib/Acme/Hello/I18N/pt_BR.po
-	   + lib/Acme/Hello/I18N/ru.po lib/Acme/Hello/I18N/sk.po
-	   + lib/Acme/Hello/I18N/sl.po lib/Acme/Hello/I18N/sv.po
-	   + lib/Acme/Hello/I18N/tr.po lib/Acme/Hello/I18N/uk.po
-	   + lib/Acme/Hello/I18N/zh_CN.po lib/Acme/Hello/I18N/zh_TW.po
-	   + t/0-signature.t t/1-basic.t
+        Log: * Version 0.01, initial release of 'Best Practice'
+	       Acme::Hello.
+             * (not quite yet -- tests and script/hello.pl needs
+	       working)
+	   + Build.PL Build.pm INSTALL MANIFEST
+	   + MANIFEST.SKIP META.yaml Makefile.PL README
+	   + lib/Acme/Hello.pm lib/Acme/Hello/I18N.pm
+	   + lib/Acme/Hello/I18N/ca.po
+	   + lib/Acme/Hello/I18N/da.po
+	   + lib/Acme/Hello/I18N/de.po
+	   + lib/Acme/Hello/I18N/de_DE.po
+	   + lib/Acme/Hello/I18N/el.po
+	   + lib/Acme/Hello/I18N/en.po
+	   + lib/Acme/Hello/I18N/eo.po
+	   + lib/Acme/Hello/I18N/es.po
+	   + lib/Acme/Hello/I18N/et.po
+	   + lib/Acme/Hello/I18N/fi.po
+	   + lib/Acme/Hello/I18N/fr.po
+	   + lib/Acme/Hello/I18N/gl.po
+	   + lib/Acme/Hello/I18N/he.po
+	   + lib/Acme/Hello/I18N/hr.po
+	   + lib/Acme/Hello/I18N/hu.po
+	   + lib/Acme/Hello/I18N/id.po
+	   + lib/Acme/Hello/I18N/it.po
+	   + lib/Acme/Hello/I18N/ja.po
+	   + lib/Acme/Hello/I18N/ko.po
+	   + lib/Acme/Hello/I18N/lv.po
+	   + lib/Acme/Hello/I18N/nb.po
+	   + lib/Acme/Hello/I18N/nl.po
+	   + lib/Acme/Hello/I18N/nn.po
+	   + lib/Acme/Hello/I18N/pl.po
+	   + lib/Acme/Hello/I18N/pt.po
+	   + lib/Acme/Hello/I18N/pt_BR.po
+	   + lib/Acme/Hello/I18N/ru.po
+	   + lib/Acme/Hello/I18N/sk.po
+	   + lib/Acme/Hello/I18N/sl.po
+	   + lib/Acme/Hello/I18N/sv.po
+	   + lib/Acme/Hello/I18N/tr.po
+	   + lib/Acme/Hello/I18N/uk.po
+	   + lib/Acme/Hello/I18N/zh_CN.po
+	   + lib/Acme/Hello/I18N/zh_TW.po t/0-signature.t
+	   + t/1-basic.t

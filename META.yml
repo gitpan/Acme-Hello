@@ -1,0 +1,13 @@
+--- #YAML:1.0
+name: Acme-Hello
+version: 0.02
+license: perl
+distribution_type: module
+requires:
+  perl: 5.005
+recommends:
+  Locale::Maketext: 0.20
+  Locale::Maketext::Lexicon: 0.15
+build_requires: {}
+conflicts: {}
+generated_by: Module::Build version 0.14

@@ -1,8 +1,8 @@
 # $File: //member/autrijus/Acme-Hello/lib/Acme/Hello.pm $ 
-# $Revision: #1 $ $Change: 1382 $ $DateTime: 2002/10/13 07:16:33 $
+# $Revision: #2 $ $Change: 2772 $ $DateTime: 2002/12/19 03:19:17 $
 
 package Acme::Hello;
-$Acme::Hello::VERSION = '0.01';
+$Acme::Hello::VERSION = '0.02';
 
 use strict;
 use Acme::Hello::I18N;
@@ -19,7 +19,7 @@ Acme::Hello - Print a greeting message
 
 =head1 VERSION
 
-This document describes version 0.01 of B<Acme::Hello>.
+This document describes version 0.02 of B<Acme::Hello>.
 
 =head1 SYNOPSIS
 

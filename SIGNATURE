@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.13.
+signed via the Module::Signature module, version 0.21.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,16 +14,16 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 9abb9a68e9325df979c6b3b25296898d207cf624 Build.PL
-SHA1 ddc01c22b28ecf1639e6e846d93aada7940ec775 Build.pm
-SHA1 140237485bf6f116af415c7936f6db219dd503ea Changes
+SHA1 75d4c4b074e11834c3fa06a6acff149aea26b3ba Build.PL
+SHA1 cdaf3af0cc87bda4508680cacec5c93fb001ad12 Changes
 SHA1 7dd6b66045c72225ff7c7edc31aad8b326db1850 INSTALL
-SHA1 4683b67bfe25b742847204357bd5ea7d1fe78f6e MANIFEST
+SHA1 9998673182ffe25931ce10c99df580cdd0ac36f8 MANIFEST
 SHA1 9c228a0abe59900b8c5b0d0c4ed413b021ed1285 MANIFEST.SKIP
-SHA1 ddf7f55797e12d8326575a493908a42590249a50 META.yaml
-SHA1 03dfbfc00ee25319a6a456d1ac4491d9f3ad705b Makefile.PL
+SHA1 09b3876b2d38b6f3587c0c4e3b8662c0dfdb8c4a META.yml
+SHA1 eac89691df04f0c0809c00617329fab4900904c2 Makefile.PL
 SHA1 dc10c6688bfb791c4f874b6525bc7586afea5daa README
-SHA1 c0d590fd6f25c1f1683b6114d0d88f68cc28ff44 lib/Acme/Hello.pm
+SHA1 f280a83622edebe2a95c3b0ac52420f934cc1cee inc/Build.pm
+SHA1 b9c5d363b8618a184d1e4475eb1ed734e007badd lib/Acme/Hello.pm
 SHA1 afa452be8239e588cc40087d23f4e70666262006 lib/Acme/Hello/I18N.pm
 SHA1 c48ac05b7d9816e20cf8c70e9342ae14d29863b2 lib/Acme/Hello/I18N/ca.po
 SHA1 618c2a837ca924c94a62065175190245fa63965b lib/Acme/Hello/I18N/da.po
@@ -59,12 +59,12 @@ SHA1 74e5cc715bc656335f45fa0b64a40ef477c27a27 lib/Acme/Hello/I18N/tr.po
 SHA1 199e852550056689c1aceb628a4b157ca46cea14 lib/Acme/Hello/I18N/uk.po
 SHA1 e6d1b36fe2ce2ab8356dd0286dfd3a94d8fa4e80 lib/Acme/Hello/I18N/zh_CN.po
 SHA1 65727887db46bcb198a04da395c9a9dc234ed347 lib/Acme/Hello/I18N/zh_TW.po
-SHA1 38169173229cffbe138822337784e520feb41195 t/0-signature.t
+SHA1 ca3881a6af0ead201b60f7990ecca7298b84aefe t/0-signature.t
 SHA1 0f8ca5f2cb948fa30de275ca90bf78156d730b9d t/1-basic.t
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.2.0 (FreeBSD)
+Version: GnuPG v1.2.1 (FreeBSD)
 
-iD8DBQE9qSPytLPdNzw1AaARAh4WAJ94w2n5uft3fPtF/7WsY7/meoR2bgCfSkzZ
-Ovph+UcF9KColxIe2tG5kO8=
-=qrTR
+iD8DBQE+AUaUtLPdNzw1AaARAsM6AKCQPfHsMvRHdMyqnwmbTY8zf1TmBwCglIBD
+E4jqKQRzzL+DgKsfBJvBi/0=
+=1CMb
 -----END PGP SIGNATURE-----
