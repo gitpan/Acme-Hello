@@ -1,8 +1,5 @@
-# $File: //member/autrijus/Acme-Hello/lib/Acme/Hello.pm $ 
-# $Revision: #2 $ $Change: 2772 $ $DateTime: 2002/12/19 03:19:17 $
-
 package Acme::Hello;
-$Acme::Hello::VERSION = '0.02';
+$Acme::Hello::VERSION = '0.03';
 
 use strict;
 use Acme::Hello::I18N;
@@ -19,7 +16,7 @@ Acme::Hello - Print a greeting message
 
 =head1 VERSION
 
-This document describes version 0.02 of B<Acme::Hello>.
+This document describes version 0.03 of B<Acme::Hello>.
 
 =head1 SYNOPSIS
 
@@ -69,7 +66,7 @@ Autrijus Tang E<lt>autrijus@autrijus.orgE<gt>
 
 =head1 COPYRIGHT
 
-Copyright 2002 by Autrijus Tang E<lt>autrijus@autrijus.orgE<gt>.
+Copyright 2002, 2005 by Autrijus Tang E<lt>autrijus@autrijus.orgE<gt>.
 
 This program is free software; you can redistribute it and/or 
 modify it under the same terms as Perl itself.

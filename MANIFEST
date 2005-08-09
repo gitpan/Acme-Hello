@@ -46,3 +46,4 @@ lib/Acme/Hello/I18N/zh_CN.po
 lib/Acme/Hello/I18N/zh_TW.po
 t/0-signature.t
 t/1-basic.t
+SIGNATURE    Added here by Module::Build

@@ -1,6 +1,3 @@
-# $File: //member/autrijus/Acme-Hello/README $ $Author: autrijus $
-# $Revision: #1 $ $Change: 1382 $ $DateTime: 2002/10/13 07:16:33 $
-
 This is the README file for Acme::Hello, a module to print a
 greeting message.
 
@@ -8,15 +5,15 @@ greeting message.
 
 Acme::Hello uses the standard perl module install process:
 
-cpansign -v		# see SIGNATURE for details
-perl Makefile.PL
-make
-make test
-make install
+    cpansign -v		# optional; see SIGNATURE for details
+    perl Makefile.PL
+    make
+    make test
+    make install
 
 * Copyright
 
-Copyright 2002 by Autrijus Tang <autrijus@autrijus.org>.
+Copyright 2002, 2005 by Autrijus Tang <autrijus@autrijus.org>.
 
 All rights reserved.  You can redistribute and/or modify
 this bundle under the same terms as Perl itself.

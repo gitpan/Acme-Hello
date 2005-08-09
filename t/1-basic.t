@@ -1,10 +1,12 @@
 #!/usr/bin/perl
-# $File: //member/autrijus/Acme-Hello/t/1-basic.t $ $Author: autrijus $
-# $Revision: #1 $ $Change: 1382 $ $DateTime: 2002/10/13 07:16:33 $
-
 # XXX: Need serious re-working, based on Test::MockObject and friends
 
 use strict;
+use FindBin;
+use lib "$FindBin::Bin/../lib";
+
+local $SIG{__WARN__} = sub {1};
+
 print "1..3\n";
 
 print "not " unless eval { require Acme::Hello };

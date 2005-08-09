@@ -1,6 +1,4 @@
 #!/usr/bin/perl -w
-# $File: //member/autrijus/Acme-Hello/inc/Build.pm $ 
-# $Revision: #1 $ $Change: 2769 $ $DateTime: 2002/12/19 03:17:22 $
 
 package Build;
 
@@ -26,7 +24,7 @@ sub lib_to_blib {
             # No processing needed
             $self->copy_if_modified($file, $to);
         } else {
-            warn "gnoring file '$file', unknown extension\n";
+            warn "Ignoring file '$file', unknown extension\n";
         }
     }
 }
