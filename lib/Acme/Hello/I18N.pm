@@ -1,5 +1,5 @@
 package Acme::Hello::I18N;
-$Acme::Hello::I18N::VERSION = '0.05';
+$Acme::Hello::I18N::VERSION = '0.03';
 
 use strict;
 use vars qw( @ISA %Lexicon );
@@ -8,6 +8,10 @@ use vars qw( @ISA %Lexicon );
 =head1 NAME
 
 Acme::Hello::I18N - Localized messages for Acme::Hello
+
+=head1 VERSION
+
+This document describes version 0.03 of B<Acme::Hello::I18N>.
 
 =head1 SYNOPSIS
 
@@ -69,3 +73,10 @@ This work is published from Taiwan.
 L<http://creativecommons.org/publicdomain/zero/1.0>
 
 =cut
+
+# Local variables:
+# c-indentation-style: bsd
+# c-basic-offset: 4
+# indent-tabs-mode: nil
+# End:
+# vim: expandtab shiftwidth=4:
