@@ -1,5 +1,5 @@
 package Acme::Hello::I18N;
-$Acme::Hello::I18N::VERSION = '0.02';
+$Acme::Hello::I18N::VERSION = '0.03';
 
 use strict;
 use vars qw( @ISA %Lexicon );
@@ -11,7 +11,7 @@ Acme::Hello::I18N - Localized messages for Acme::Hello
 
 =head1 VERSION
 
-This document describes version 0.02 of B<Acme::Hello::I18N>.
+This document describes version 0.03 of B<Acme::Hello::I18N>.
 
 =head1 SYNOPSIS
 
@@ -63,18 +63,14 @@ sub maketext {
 
 __END__
 
-=head1 AUTHORS
+=head1 CC0 1.0 Universal
 
-Autrijus Tang E<lt>autrijus@autrijus.orgE<gt>
+To the extent possible under law, 唐鳳 has waived all copyright and related
+or neighboring rights to Acme-Hello.
 
-=head1 COPYRIGHT
+This work is published from Taiwan.
 
-Copyright 2002, 2005 by Autrijus Tang E<lt>autrijus@autrijus.orgE<gt>.
-
-This program is free software; you can redistribute it and/or 
-modify it under the same terms as Perl itself.
-
-See L<http://www.perl.com/perl/misc/Artistic.html>
+L<http://creativecommons.org/publicdomain/zero/1.0>
 
 =cut
 

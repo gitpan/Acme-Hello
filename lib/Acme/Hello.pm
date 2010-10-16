@@ -1,5 +1,5 @@
 package Acme::Hello;
-$Acme::Hello::VERSION = '0.03';
+$Acme::Hello::VERSION = '0.04';
 
 use strict;
 use Acme::Hello::I18N;
@@ -16,7 +16,7 @@ Acme::Hello - Print a greeting message
 
 =head1 VERSION
 
-This document describes version 0.03 of B<Acme::Hello>.
+This document describes version 0.04 of B<Acme::Hello>.
 
 =head1 SYNOPSIS
 
@@ -60,18 +60,14 @@ sub loc {
 
 __END__
 
-=head1 AUTHORS
+=head1 CC0 1.0 Universal
 
-Autrijus Tang E<lt>autrijus@autrijus.orgE<gt>
+To the extent possible under law, 唐鳳 has waived all copyright and related
+or neighboring rights to Acme-Hello.
 
-=head1 COPYRIGHT
+This work is published from Taiwan.
 
-Copyright 2002, 2005 by Autrijus Tang E<lt>autrijus@autrijus.orgE<gt>.
-
-This program is free software; you can redistribute it and/or 
-modify it under the same terms as Perl itself.
-
-See L<http://www.perl.com/perl/misc/Artistic.html>
+L<http://creativecommons.org/publicdomain/zero/1.0>
 
 =cut
 

@@ -1,26 +1,28 @@
 #!/usr/bin/perl -w
 
 use strict;
-use lib './inc';
-use Build;
+use Module::Build;
 
-my $m = Build->new(
+Module::Build->new(
     dist_name           => 'Acme-Hello',
-    dist_version        => '0.03',
-    license             => 'perl',
+    dist_version        => '0.04',
+    license             => 'CC0',
+    create_makefile_pl  => 'small',
     sign                => 1,
 
+    configure_requires => {
+        'Module::Build' => 0.36,
+    },
+
     recommends          => {
-	'Locale::Maketext'          => '0.20',
-	'Locale::Maketext::Lexicon' => '0.15',
+        'Locale::Maketext'          => '0.20',
+        'Locale::Maketext::Lexicon' => '0.15',
     },
 
     requires            => {
-	'perl' => '5.005',
+        'perl' => '5.005',
     },
-);
-
-$m->create_build_script;
+)->create_build_script;
 
 __END__
 # Local variables:

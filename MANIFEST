@@ -1,13 +1,5 @@
 Build.PL
 Changes
-INSTALL
-MANIFEST			This list of files
-MANIFEST.SKIP
-META.yml
-Makefile.PL
-README
-SIGNATURE
-inc/Build.pm
 lib/Acme/Hello.pm
 lib/Acme/Hello/I18N.pm
 lib/Acme/Hello/I18N/ca.po
@@ -44,6 +36,11 @@ lib/Acme/Hello/I18N/tr.po
 lib/Acme/Hello/I18N/uk.po
 lib/Acme/Hello/I18N/zh_CN.po
 lib/Acme/Hello/I18N/zh_TW.po
+Makefile.PL
+MANIFEST			This list of files
+META.yml
+README
+SIGNATURE
 t/0-signature.t
 t/1-basic.t
 SIGNATURE    Added here by Module::Build

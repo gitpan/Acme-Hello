@@ -3,12 +3,15 @@
 use strict;
 print "1..1\n";
 
-if (!-s 'SIGNATURE') {
+if (!$ENV{TEST_SIGNATURE}) {
+    print "ok 1 # skip set the environment variable TEST_SIGNATURE to enable this test\n";
+}
+elsif (!-s 'SIGNATURE') {
     print "ok 1 # skip No signature file found\n";
 }
 elsif (!eval { require Module::Signature; 1 }) {
     print "ok 1 # skip ",
-	    "Next time around, consider installing Module::Signature, ",
+	    "Next time around, consider install Module::Signature, ",
 	    "so you can verify the integrity of this distribution.\n";
 }
 elsif (!eval { require Socket; Socket::inet_aton('pgp.mit.edu') }) {
@@ -22,9 +25,3 @@ else {
 }
 
 __END__
-# Local variables:
-# c-indentation-style: bsd
-# c-basic-offset: 4
-# indent-tabs-mode: nil
-# End:
-# vim: expandtab shiftwidth=4:
